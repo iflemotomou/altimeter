@@ -1,0 +1,14 @@
+===============================================================================
+1. REQUIRED DEPENDENCIES & LIBRARIES
+===============================================================================
+To compile this sketch on an Arduino UNO R4, ensure the following libraries are installed via your Arduino IDE Library Manager (Tools -> Manage Libraries) or sourced manually:
+
+* SparkFun BMP384 Arduino Library (by SparkFun Electronics)
+  Used to read pressure and temperature values over I2C.
+  Source: https://github.com/sparkfun/SparkFun_BMP384_Arduino_Library
+
+* LiquidCrystal_PCF8574 (by Matthias Hertel)
+  An architecture-compatible library for driving PCF8574-based LCDs on the UNO R4.
+  Source: https://github.com/mathertel/LiquidCrystal_PCF8574
+
+Note: The standard <Wire.h> utility library is bundled with the Arduino IDE core architecture and does not require a separate installation.
